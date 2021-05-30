@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CloudCart - A cloud cart software to streamline online selling and customer database management.
 
-Things you may want to cover:
+This is a final project for RCA FSSD Course.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+The specs of this project will be updated soon:
 
 * ...
