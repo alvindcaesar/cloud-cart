@@ -54,7 +54,21 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'devise', '~> 4.7', '>= 4.7.3'
-gem 'friendly_id', '~> 5.4', '>= 5.4.1'
-gem 'sidekiq', '~> 6.1', '>= 6.1.2'
-gem 'name_of_person', '~> 1.1', '>= 1.1.1'
+gem 'bootstrap', '5.0.0'
+gem 'devise', '~> 4.8', '>= 4.8.0'
+gem 'devise_masquerade', '~> 1.3'
+gem 'font-awesome-sass', '~> 5.15'
+gem 'friendly_id', '~> 5.4'
+gem 'image_processing'
+gem 'madmin'
+gem 'mini_magick', '~> 4.10', '>= 4.10.1'
+gem 'name_of_person', '~> 1.1'
+gem 'noticed', '~> 1.2'
+gem 'omniauth-facebook', '~> 8.0'
+gem 'omniauth-github', '~> 2.0'
+gem 'omniauth-twitter', '~> 1.4'
+gem 'pundit', '~> 2.1'
+gem 'redis', '~> 4.2', '>= 4.2.2'
+gem 'sidekiq', '~> 6.2'
+gem 'sitemap_generator', '~> 6.1', '>= 6.1.2'
+gem 'whenever', require: false
