@@ -1,4 +1,4 @@
-# README
+# CLOUDCART
 
 CloudCart - A cloud cart software to streamline online selling and customer database management.
 
