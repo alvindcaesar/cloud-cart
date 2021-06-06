@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.1'
+ruby '3.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.2'
@@ -60,7 +60,7 @@ gem 'devise_masquerade', '~> 1.3'
 gem 'font-awesome-sass', '~> 5.15'
 gem 'friendly_id', '~> 5.4'
 gem 'image_processing'
-gem 'madmin'
+gem 'madmin', '~> 1.2'
 gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'name_of_person', '~> 1.1'
 gem 'noticed', '~> 1.2'
