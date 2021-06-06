@@ -18,13 +18,12 @@
     <thead>
       <tr>
     
-
-            <th>Product name</th>
-            <th>Price</th>
-            <th>Sku</th>
+            <th>Product Photo</th>
+            <th>Product Name</th>
+            <th>Price (RM)</th>
+            <th>SKU</th>
             <th>Description</th>
-            
-          <th></th>
+            <th>Action</th>
         
       </tr>
     </thead>
@@ -32,12 +31,15 @@
     <tbody>
       <% @products.each do |product| %>
         <%= content_tag :tr, id: dom_id(product), class: dom_class(product) do %>
-          
-
-                      <td><%= product.product_name %></td>
-                      <td><%= product.price %></td>
-                      <td><%= product.sku %></td>
-                      <td><%= product.description %></td>
+                      <% if product.product_photo.attached? %>
+                          <td><%= image_tag product.product_photo, width: 100 %></td>
+                      <% else %>
+                          <td>Photo Unavailable</td>
+                      <% end %>
+                          <td><%= product.product_name %></td>
+                          <td><%= product.price %></td>
+                          <td><%= product.sku %></td>
+                          <td><%= product.description %></td>
           
           
             <td><%= link_to 'Show', product %></td>
