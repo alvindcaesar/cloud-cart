@@ -84,7 +84,7 @@ Rails.application.configure do
     :address => "smtp.mailgun.org",
     :port => 587,
     :domain => "alvind.wtf",
-    :user_name => cloudcart@alvind.wtf,
-    :password => e7238a458d0969da98f339f40a78f716-1d8af1f4-cd35d15a
+    :user_name => Rails.application.credentials.mail_user_name,
+    :password => Rails.application.credentials.mail_password
   }
 end
